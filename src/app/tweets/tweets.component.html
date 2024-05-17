@@ -1,0 +1,16 @@
+<div class="container mt-3">
+
+    <h1>Tweets</h1>
+
+    <div class="tweetsContainer">
+
+        @for (tweetrow of tweets; track tweetrow.tweetID) {
+            <div class="tweet">
+                <p>{{ tweetrow.tweet }}</p>
+                <p class="tweetUser"><img [src]="tweetrow.pfp" class="pfp"> &#64;{{ tweetrow.username }}</p>
+            </div>
+        }
+
+    </div>
+
+</div>
