@@ -37,4 +37,16 @@ export class TweetsComponent {
       pfp: "https://files.catbox.moe/sdep93.png"
     }
   ];
+
+  addNewTweet(){
+    alert('New Tweet Added');
+  };
+
+  double(){
+    alert('Double Clicked');
+  };
+
+  buttonColour(){
+    //
+  }
 }

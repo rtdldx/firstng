@@ -1,6 +1,8 @@
 <div class="container mt-3">
 
-    <h1>Tweets</h1>
+    <h1 (dblclick)="double()">Tweets</h1>
+
+    <button class="btn btn-primary" (click)="addNewTweet()" (mouseover)="buttonColour()">Add New Tweet</button>
 
     <div class="tweetsContainer">
 
